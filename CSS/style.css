@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background: rgb(44, 44, 44);
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.header__img {
+    width: 70px;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+}
+
+.nav__item {
+    color: rgb(131, 174, 157);
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0px;
+text-align: left;
+margin-right: 30px;
+}
+
+.nav__item:hover {
+   color: rgb(153, 22, 67);
+}
+
+.hero-block {
+    background: rgb(44, 44, 44);
+}
+
+.container_hero-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-block__content {
+max-width: 415px;
+}
+
+.hero-block__title {
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 48px;
+font-weight: 400;
+line-height: 0px;
+letter-spacing: 0px;
+text-align: left;
+margin-bottom: 44px;
+}
+
+.hero-block__link {
+    border-radius: 6px;
+    background: rgb(216, 51, 10);
+    padding: 15px 48px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.about {
+    background: rgb(102, 3, 3);
+}
+
+.container_about {
+    padding: 60px 0 99px;
+}
+
+.about__title {
+    color: rgb(186, 255, 176);
+font-family: Inter;
+font-size: 28px;
+font-weight: 400px;
+line-height: 34px;
+letter-spacing: 0px;
+text-align: center;
+margin-bottom: 60px;
+}
+
+.about__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__text {
+    max-width: 438px;
+    color: rgb(186, 255, 176);
+font-family: Inter;
+font-size: 28px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.footer {
+    background: rgb(44, 44, 44);
+}
+
+.container_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 40px;
+}
+
+.footer__title {
+    color: rgb(228, 228, 228);
+font-family: Inter;
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+margin-bottom: 15px;
+}
+
+.footer__text {
+    color: rgb(228, 228, 228);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.footer__list {
+    display: flex;
+    list-style: none;
+}
+
+.footer__item {
+    margin-right: 15px;
+}
